@@ -1,6 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:events/firebase_options.dart';
 import 'package:events/screens/EventScreen.dart';
+import 'package:events/screens/launch_screen.dart';
+import 'package:events/screens/login_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
-      home: EventScreen(),
+      home: LaunchScreen(),
     );
   }
 
